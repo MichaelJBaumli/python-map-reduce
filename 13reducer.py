@@ -11,7 +11,7 @@ with open("output12sorted.txt","r") as sorted:
     for line in sorted:
       datalist = line.strip().split('\t')
       if (len(datalist) == 2) : 
-        store, amount = datalist
+        department, amount = datalist
 
         if store != thisKey:
           if thisKey:
@@ -20,7 +20,7 @@ with open("output12sorted.txt","r") as sorted:
             print(thisKey + '\t' + str(thisValue)+'\n')
 
           # start over for each new key
-          thisKey = store 
+          thisKey = department 
           thisValue = 0.0
   
         # apply the aggregation function
