@@ -6,9 +6,9 @@ Basic Python introduction and concepts needed in preparation for working with ma
 
 - Install Chocolatey, the Windows package manager
 - Install the Anaconda 3 version for Python + common packages
-- '''choco install anaconda3 -y''' 
+- ```choco install anaconda3 -y```
 - Install Visual Studio Code for text editing
-- '''choco install vscode -y''' 
+- ```choco install vscode -y``` 
 - Add Open Command Window Here as Administrator to your File Explorer context menu.
 
 See: [Basic Setup for Big Data](https://github.com/denisecase/basic-setup-for-bigdata)
