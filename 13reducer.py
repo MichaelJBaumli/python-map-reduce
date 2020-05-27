@@ -13,7 +13,7 @@ with open("output12sorted.txt","r") as sorted:
       if (len(datalist) == 2) : 
         department, amount = datalist
 
-        if store != thisKey:
+        if department != thisKey:
           if thisKey:
             # output the previous key-summaryvalue result
             output.write(thisKey + '\t' + str(thisValue)+'\n')
