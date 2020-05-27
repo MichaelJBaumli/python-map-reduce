@@ -32,11 +32,19 @@ cat data | map | sort | reduce
 
 PowerShell and Bash use the same commands:
 
-```Bash
+```PowerShell
 cat part.txt
 cat part.txt | python 21mapper.py
 cat part.txt | python 21mapper.py | sort
 cat part.txt | python 21mapper.py | sort  | python 22reducer.py
+
+```
+
+```PowerShell
+cat purchasesx.txt
+cat purchasesx.txt | python 21mapper.py
+cat purchasesx.txt | python 21mapper.py | sort
+cat purchasesx.txt | python 21mapper.py | sort  | python 22reducer.py
 
 ```
 
