@@ -6,12 +6,17 @@ Basic Python introduction and concepts needed in preparation for working with ma
 
 - Install Chocolatey, the Windows package manager
 - Install the Anaconda 3 version for Python + common packages
+- '''choco install anaconda3 -y''' 
 - Install Visual Studio Code for text editing
+- '''choco install vscode -y''' 
 - Add Open Command Window Here as Administrator to your File Explorer context menu.
 
 See: [Basic Setup for Big Data](https://github.com/denisecase/basic-setup-for-bigdata)
 
 ## Case 1:  Local file-based
+
+- Modifed existing code to indicate changes from store to department. (Took a sync or three)
+- tested code to confirm that it worked, renamed files. 
 
 ```PowerShell
 python 11mapper.py
